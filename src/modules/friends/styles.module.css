@@ -1,0 +1,23 @@
+.SubHeader{
+    display: flex;
+    align-items: center;
+}
+.Heading{
+    font-size: 18px;
+}
+.SubHeading{
+    font-size: 14px;
+}
+.BackBtn{
+    padding: 10px;
+}
+.BackBtn:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+.BackBtn img{
+    width: 20px;
+}
+.SubContainer{
+    padding-top: 20px;
+}

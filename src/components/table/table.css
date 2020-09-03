@@ -1,0 +1,52 @@
+div.rt-tr.-odd {
+    background-color: #f9f9f9;
+}
+div.rt-tr {
+    padding: 1vh;
+}
+div.rt-td {
+    align-self: center;
+}
+div.rt-thead {
+    z-index: 1;
+}
+div.rt-tbody {
+    max-height: 65vh;
+}
+
+div.rt-tr {
+    padding: 0vh;
+}
+
+.ReactTable .rt-thead .rt-resizable-header{
+    padding: 1vh;
+}
+
+
+/*slider.css*/
+.z-index-2 {
+    z-index: 2;
+}
+
+.blurFilter {
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -o-filter: blur(2px);
+    -ms-filter: blur(2px);
+    filter: blur(2px);
+}
+
+.ReactTable .-pagination .-btn {
+    background: #018ccf;
+    color: white;
+}
+
+.ReactTable .-pagination .-btn[disabled] {
+    opacity: .5;
+    cursor: default
+}
+
+.ReactTable .-pagination .-btn:not([disabled]):hover {
+    background: #14cbcf;
+    color: #fff
+}
