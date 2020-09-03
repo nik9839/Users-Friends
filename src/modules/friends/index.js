@@ -125,7 +125,7 @@ export default class Friends extends Component {
     getUserBlock = () => {
         let name = ""
         if (this.state.user) {
-            name = this.state.user["firstName"] + this.state.user["lastName"]
+            name = this.state.user["firstName"] + " " + this.state.user["lastName"]
         }
         return <div className={classes.SubHeading}>User Selected :  {name}</div>
     }

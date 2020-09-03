@@ -2,7 +2,7 @@
   "name": "users_friends_webapp",
   "version": "0.1.0",
   "private": true,
-  "proxy":"http://localhost:8000",
+  "proxy": "http://localhost:8000",
   "dependencies": {
     "axios": "^0.20.0",
     "bootstrap": "^4.5.2",
